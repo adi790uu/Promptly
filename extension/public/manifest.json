@@ -1,20 +1,11 @@
 {
-  "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
-  "rsc": false,
-  "tsx": true,
-  "tailwind": {
-    "config": "tailwind.config.js",
-    "css": "src/index.css",
-    "baseColor": "neutral",
-    "cssVariables": true,
-    "prefix": ""
-  },
-  "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
+  "manifest_version": 3,
+  "name": "Promptly",
+  "version": "1.0.0",
+  "description": "A Chrome extension built with React, Tailwind, and shadcn/ui",
+  "permissions": ["storage", "tabs"],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "React Chrome Extension"
   }
 }
